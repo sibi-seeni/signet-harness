@@ -1,0 +1,65 @@
+{
+ "_note": "Two IRS documents copied from Track 2 (verbatim excerpts).",
+ "docs": [
+  {
+   "doc_id": "irs-2024",
+   "family": "IRS-1040-INSTR",
+   "default_pool": false,
+   "filename": "i1040gi_2024.pdf",
+   "title": "2024 Instructions for Form 1040",
+   "source_url": "https://www.irs.gov/pub/irs-prior/i1040gi--2024.pdf",
+   "ingest": {
+    "date": "2024",
+    "version": "Tax Year 2024",
+    "status": "active"
+   },
+   "passages": [
+    {
+     "pid": "irs-2024-p1",
+     "locator": "What's New, Standard deduction amount increased",
+     "text": "Standard deduction amount increased. For 2024, the standard deduction amount has been increased for all filers. The amounts are: • $14,600–Single or Married filing separately. • $29,200–Married filing jointly or Qualifying surviving spouse. • $21,900–Head of household."
+    },
+    {
+     "pid": "irs-2024-p2",
+     "locator": "Line 12, Standard Deduction Worksheet for Dependents, line 4b; Standard Deduction Chart for People Who Were Born Before January 2, 1960, or Were Blind",
+     "text": "Standard Deduction Worksheet for Dependents—Line 12 4. Standard deduction. b. If born before January 2, 1960, or blind, multiply the number on line 1 by $1,550 ($1,950 if single or head of household) Standard Deduction Chart for People Who Were Born Before January 2, 1960, or Were Blind Don’t use this chart if someone can claim you, or your spouse if filing jointly, as a dependent. Instead, use the worksheet above."
+    },
+    {
+     "pid": "irs-2024-p3",
+     "locator": "Schedule 1, Line 21, Student Loan Interest Deduction, and its worksheet (line 1)",
+     "text": "Student Loan Interest Deduction You can take this deduction only if all of the following apply. • You paid interest in 2024 on a qualified student loan (defined later). • Your filing status is any status except married filing separately. Student Loan Interest Deduction Worksheet—Schedule 1, Line 21 1. Enter the total interest you paid in 2024 on qualified student loans (see the instructions for line 21). Don’t enter more than $2,500"
+    }
+   ]
+  },
+  {
+   "doc_id": "irs-2025",
+   "family": "IRS-1040-INSTR",
+   "default_pool": true,
+   "filename": "i1040gi_2025.pdf",
+   "title": "2025 Instructions for Form 1040",
+   "source_url": "https://www.irs.gov/pub/irs-pdf/i1040gi.pdf",
+   "ingest": {
+    "date": "2025",
+    "version": "Tax Year 2025",
+    "status": "active"
+   },
+   "passages": [
+    {
+     "pid": "irs-2025-p1",
+     "locator": "What's New, Standard deduction amount increased",
+     "text": "Standard deduction amount increased. For 2025, the standard deduction amount has been increased for all filers. The amounts are: • $15,750–Single or Married filing separately. • $31,500–Married filing jointly or Qualifying surviving spouse. • $23,625–Head of household."
+    },
+    {
+     "pid": "irs-2025-p2",
+     "locator": "Line 12e, Standard Deduction Worksheet for Dependents, line 4b; Standard Deduction Chart for People Who Were Born Before January 2, 1961, or Were Blind",
+     "text": "Standard Deduction Worksheet for Dependents—Line 12e 4. Standard deduction. b. If born before January 2, 1961, or blind, multiply the number on line 1 by $1,600 ($2,000 if single or head of household) Standard Deduction Chart for People Who Were Born Before January 2, 1961, or Were Blind Don’t use this chart if someone can claim you, or your spouse if filing jointly, as a dependent. Instead, use the worksheet above."
+    },
+    {
+     "pid": "irs-2025-p3",
+     "locator": "Schedule 1, Line 21, Student Loan Interest Deduction, and its worksheet (line 1)",
+     "text": "Student Loan Interest Deduction You can take this deduction only if all of the following apply. • You paid interest in 2025 on a qualified student loan (defined later). • Your filing status is any status except married filing separately. Student Loan Interest Deduction Worksheet—Schedule 1, Line 21 1. Enter the total interest you paid in 2025 on qualified student loans (see the instructions for line 21). Don’t enter more than $2,500"
+    }
+   ]
+  }
+ ]
+}

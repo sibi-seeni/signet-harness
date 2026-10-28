@@ -1,0 +1,25 @@
+# Team-wide settings. Keep these fixed across streams so results stay comparable;
+# every run logs them in meta.json. Pick the experiment with --experiment or SIGNET_EXPERIMENT.
+
+# Models under test (run in parallel) and the judge. To switch, e.g. once funded credits
+# are approved, change these lines (or set SIGNET_MODELS / SIGNET_JUDGE_MODEL); every model
+# in `signet info` is already pinned in the table.
+models = ["deepseek-flash", "gemma-4-31b"]
+judge_model = "gpt-6-luna"
+embed_model = "openai/text-embedding-3-small"
+
+temperature = 0.0
+top_k = 5
+seeds = [0, 1, 2]
+max_tool_steps = 4
+workers = 8
+
+# A model that isn't in the built-in table (check the id and canonical slug with
+# `curl https://openrouter.ai/api/v1/models`, then run `signet preflight --models <alias>`):
+#
+# [models_table.my-model]
+# slug = "vendor/model-id"
+# canonical = "vendor/model-id-20261101"
+# price = [0.10, 0.40]       # USD per 1M tokens in / out, for estimates only
+# reasoning = "low"          # or "on", or leave out for the model's default
+# tier = "funded"

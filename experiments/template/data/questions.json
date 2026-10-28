@@ -1,0 +1,72 @@
+{
+ "_note": "Three IRS questions copied from Track 2. Format: see experiments/template/README.md.",
+ "questions": [
+  {
+   "id": "irs-01",
+   "family": "IRS-1040-INSTR",
+   "case": "C1",
+   "verified": true,
+   "question": "What is the standard deduction for a single filer?",
+   "corpus": [
+    "irs-2024",
+    "irs-2025"
+   ],
+   "gold_passages": [
+    "irs-2024-p1",
+    "irs-2025-p1"
+   ],
+   "gold_answer": "$15,750 (2025 Instructions for Form 1040)",
+   "alt_answer": "$14,600 (2024 instructions)",
+   "accept": [
+    "\\b15750\\b"
+   ],
+   "alt": [
+    "\\b14600\\b"
+   ]
+  },
+  {
+   "id": "irs-03",
+   "family": "IRS-1040-INSTR",
+   "case": "C2",
+   "verified": true,
+   "question": "What is the standard deduction for a head of household filer?",
+   "corpus": [
+    "irs-2024"
+   ],
+   "gold_passages": [
+    "irs-2024-p1"
+   ],
+   "gold_answer": "$23,625 under the current (2025) instructions; the retrieved 2024 instructions are superseded",
+   "alt_answer": "$21,900 (2024 instructions) given as current",
+   "accept": [
+    "\\b23625\\b"
+   ],
+   "alt": [
+    "\\b21900\\b"
+   ]
+  },
+  {
+   "id": "irs-05",
+   "family": "IRS-1040-INSTR",
+   "case": "C5",
+   "verified": true,
+   "question": "For tax year 2024, what was the standard deduction for a head of household filer?",
+   "corpus": [
+    "irs-2024",
+    "irs-2025"
+   ],
+   "gold_passages": [
+    "irs-2024-p1",
+    "irs-2025-p1"
+   ],
+   "gold_answer": "$21,900 (tax year 2024)",
+   "alt_answer": "$23,625 (tax year 2025 value presented as a correction)",
+   "accept": [
+    "\\b21900\\b"
+   ],
+   "alt": [
+    "\\b23625\\b"
+   ]
+  }
+ ]
+}

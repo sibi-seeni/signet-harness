@@ -1,0 +1,40 @@
+{
+ "_note": "Mock version registry standing in for an online lookup (design doc section 5). It's a frozen, controlled universe: each family only knows the versions used in this experiment, so 'latest' means latest within the experiment, not necessarily in the real world today (e.g. FY2026/FY2027 per diem rates, pandas 3.x and NumPy 2.1+ are deliberately left out). Entries were checked against the official sources (IRS, NIST CSRC and the NIST OSCAL catalog, GSA, pandas and NumPy docs) on Oct 27, 2026.",
+ "families": {
+  "IRS-1040-INSTR": {
+   "aliases": [
+    "form 1040 instructions",
+    "instructions for form 1040",
+    "1040 instructions",
+    "i1040gi",
+    "i1040",
+    "form 1040"
+   ],
+   "latest": "Tax Year 2025",
+   "versions": [
+    {
+     "version": "Tax Year 2024",
+     "aliases": [
+      "2024",
+      "ty2024",
+      "tax year 2024"
+     ],
+     "effective": "2024",
+     "status": "superseded",
+     "superseded_by": "Tax Year 2025"
+    },
+    {
+     "version": "Tax Year 2025",
+     "aliases": [
+      "2025",
+      "ty2025",
+      "tax year 2025"
+     ],
+     "effective": "2025",
+     "status": "current",
+     "superseded_by": null
+    }
+   ]
+  }
+ }
+}

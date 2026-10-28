@@ -1,0 +1,7 @@
+# Each stream owns its results folder (team plan: don't edit another stream's results).
+# Fill in GitHub handles, then turn on "Require review from Code Owners" for main.
+*                     @sibi-seeni
+/results/track2/      @sibi-seeni
+# /results/track1/      <Chathur's handle>
+# /results/A-benchmark/ <Teammate A's handle>
+# /results/B-prototype/ <Teammate B's handle>
